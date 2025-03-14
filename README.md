@@ -16,11 +16,11 @@ The MambaModel stacks multiple MambaLayers (with dropout between layers) to form
 ## Repository Structure
 
 state-spaces/
-├── preprocessed_airquality.csv  # Preprocessed and normalized dataset.
-├── train_custom_mamba.py        # Training script for the Mamba model.
-├── README.md                    # This file.
-├── requirements.txt             # List of required Python packages.
-└── venv/                        # Virtual environment (optional).
+├── preprocessed_airquality.csv
+├── train_custom_mamba.py
+├── README.md
+├── requirements.txt
+└── venv/          (optional)
 
 # Requirements
 	•	Python 3.8 or later
