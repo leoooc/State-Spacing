@@ -32,12 +32,9 @@ state-spaces/
  pip install -r requirements.txt
 
  # How to Run
-	1.	Preprocess the Data:
-Ensure that the UCI Air Quality dataset has been preprocessed into preprocessed_airquality.csv. (If you haven’t already, run the provided preprocess_uci.py script.)
+	1.	Preprocess the Data: Ensure that the UCI Air Quality dataset has been preprocessed into preprocessed_airquality.csv. (If you haven’t already, run the provided preprocess_uci.py script.)
 
-	2.	Train the Model:
-Run the training script:
-python3 train_custom.py
+	2.	Train the Model: Run the training script: python3 train_custom.py
 
 The script will:
 	•	Load and normalize the dataset.
