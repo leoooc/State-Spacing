@@ -13,7 +13,7 @@ The MambaLayer implements a simple state update mechanism:
 
 The MambaModel stacks multiple MambaLayers (with dropout between layers) to form a deep state-space–inspired architecture.
 
-# Repository Structure
+## Repository Structure
 
 state-spaces/
 ├── preprocessed_airquality.csv  # Preprocessed and normalized dataset.
