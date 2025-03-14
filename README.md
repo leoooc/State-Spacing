@@ -2,7 +2,7 @@
 
 This repository demonstrates a custom state-space–inspired model, called the MambaModel, that uses a custom MambaLayer to learn state dynamics over time. It is designed as an alternative to more complicated S4-based layers and serves as a proof-of-concept for using learnable state transitions in a deep learning model.
 
-Overview
+# Overview
 
 The project uses the UCI Air Quality dataset preprocessed into preprocessed_airquality.csv. A sliding-window dataset is created from this CSV, and the MambaModel is trained to predict the next time step’s feature vector based on past inputs.
 
@@ -13,7 +13,7 @@ The MambaLayer implements a simple state update mechanism:
 
 The MambaModel stacks multiple MambaLayers (with dropout between layers) to form a deep state-space–inspired architecture.
 
-Repository Structure
+# Repository Structure
 
 state-spaces/
 ├── preprocessed_airquality.csv  # Preprocessed and normalized dataset.
@@ -22,7 +22,7 @@ state-spaces/
 ├── requirements.txt             # List of required Python packages.
 └── venv/                        # Virtual environment (optional).
 
-Requirements
+# Requirements
 	•	Python 3.8 or later
 	•	PyTorch
 	•	scikit-learn
@@ -31,11 +31,11 @@ Requirements
 
  pip install -r requirements.txt
 
- How to Run
+ # How to Run
 	1.	Preprocess the Data:
 Ensure that the UCI Air Quality dataset has been preprocessed into preprocessed_airquality.csv. (If you haven’t already, run the provided preprocess_uci.py script.)
 
-	3.	Train the Model:
+	2.	Train the Model:
 Run the training script:
 python3 train_custom.py
 
